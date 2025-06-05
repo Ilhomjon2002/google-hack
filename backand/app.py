@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-BOT_TOKEN = "7264707471:AAFeJuOJshefOPJ7beduQeuLqTwkHklBNoQ"
-CHAT_ID = "1977657343"
+BOT_TOKEN = "7264707471:"
+CHAT_ID = ""
 
 @app.route("/send", methods=["POST"])
 def send():
